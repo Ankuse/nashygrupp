@@ -20,9 +20,9 @@ try {
 $res = $rsProperty->fetchAll();
 foreach ($res as $re) {
 	$ar_res = CIBlockElement::GetProperty($re['IBLOCK_ID'], $re['ID']);
-	debug($re);
-	debug($ar_res);
-}
-
-require($_SERVER['DOCUMENT_ROOT'].'/bitrix/footer.php');
+	//debug($re);
+	//debug($ar_res);
+}?>
+qwe
+<?require($_SERVER['DOCUMENT_ROOT'].'/bitrix/footer.php');
 ?>
